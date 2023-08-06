@@ -1,14 +1,8 @@
 import "./style.css";
-import shirokoImage from "/shiroko.jpg";
 import { setupCounter } from "./counter.ts";
 
-/*
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${shirokoImage}" class="logo" alt="Vite logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
@@ -19,4 +13,3 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
-*/
